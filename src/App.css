@@ -1,4 +1,23 @@
-.App {
-  text-align: center;
+/* body,html{
+  background-color: #141414;
+  color: #fff;
+} */
+
+.movie-app > .row{
+  overflow-x: auto;
+  flex-wrap: nowrap;
 }
 
+.image-container{
+  position: relative;
+  transition: tranform 0.2s;
+}
+
+.image-container:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+/* .movie-app{
+  background: #141414;
+  color: #fff;
+} */
