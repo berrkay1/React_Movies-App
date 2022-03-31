@@ -1,7 +1,7 @@
-/* body,html{
+body,html{
   background-color: #141414;
   color: #fff;
-} */
+}
 
 .movie-app > .row{
   overflow-x: auto;
@@ -17,7 +17,23 @@
   cursor: pointer;
   transform: scale(1.1);
 }
-/* .movie-app{
+.movie-app{
   background: #141414;
   color: #fff;
-} */
+}
+
+.image-container:hover .overlay{
+  opacity:1 ;
+}
+
+.overlay{
+  position: absolute;
+  background: rgba((0), 0, 0, 0.8);
+  width: 100%;
+  transition: 0.5ms ease;
+  opacity: 0;
+  bottom: 0;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
