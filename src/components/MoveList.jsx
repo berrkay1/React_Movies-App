@@ -1,8 +1,10 @@
 import React from 'react'
-import AddFavorite from './AddFavorite';
 
-function MoveList({movies,handleFavoritesClick}) {
 
+
+function MoveList({movies,handleFavoritesClick,favoriComponent}) {
+
+  const FavouriteComponent = favoriComponent;
  
   return (
     <div>
@@ -15,7 +17,7 @@ function MoveList({movies,handleFavoritesClick}) {
 
                 >
 
-                  <AddFavorite/>
+                  <FavouriteComponent/>
                  
                 </div>
             </div>
